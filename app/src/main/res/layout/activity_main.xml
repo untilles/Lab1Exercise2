@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
-        android:id="@+id/radioGroup">
+        android:id="@+id/rgFrom">
 
         <RadioButton
             android:layout_width="match_parent"
@@ -61,13 +61,13 @@
         android:layout_height="wrap_content"
         android:text="@string/to"
         android:id="@+id/textView3"
-        android:layout_below="@+id/radioGroup"
+        android:layout_below="@+id/rgFrom"
         android:layout_alignParentStart="true" />
 
     <RadioGroup
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup2"
+        android:id="@+id/rgTo"
         android:layout_below="@+id/textView3"
         android:layout_alignParentStart="true">
 
@@ -95,7 +95,7 @@
         android:layout_height="wrap_content"
         android:text="@string/convert"
         android:id="@+id/btnConvert"
-        android:layout_below="@+id/radioGroup2"
+        android:layout_below="@+id/rgTo"
         android:layout_alignParentStart="true" />
 
     <TextView
